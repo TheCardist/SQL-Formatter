@@ -1,0 +1,122 @@
+/* Background Color - #23212c
+Comment Color - #7970a9
+Selection Color - #454148
+Foreground Color - #f7f8f2
+Cyan Color - #80ffea
+Green Color - #8bff80
+Orange Color - #ffc97f
+Pink Color - #ff79c6
+Purple Color - #bd93f9
+Red Color - #ff5555
+Yellow Color - #ffff80 
+ALT Green - #a8c373 */
+body {
+  --Foreground: #f7f8f2;
+  --Cyan: #80ffea;
+  --Bright-Green: #8bff80;
+  --Orange: #ffc97f;
+  --Pink: #ff79c6;
+  --Purple: #bd93f9;
+  --Red: #ff5555;
+  --Yellow: #ffff80;
+  --Green: #a8c373;
+  --Grey: #808080;
+}
+
+.language-sql .token.string {
+  color: var(--Purple) !important;
+}
+
+.language-json .token.string {
+  color: var(--Cyan);
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Gap between radio buttons and checkbox */
+.css-na3cxl.effi0qh3 {
+  display: none !important;
+}
+
+.css-3vg9gg.effi0qh3 {
+  display: none !important;
+}
+
+/* Body of container */
+.block-container.css-12oz5g7.egzxvld2 {
+  max-width: 80rem;
+  padding: 3rem 1rem 10rem;
+}
+
+/* Menu width */
+iframe {
+  margin: auto;
+  width: 40rem;
+  align-self: revert;
+  display: grid;
+}
+
+/* code block text  */
+.css-4d0s2q {
+  height: 450px;
+  color: var(--Green);
+}
+
+.css-4d0s2q .token.property {
+  color: var(--Purple);
+}
+
+.css-4d0s2q .token.boolean {
+  color: var(--Green);
+}
+
+.css-4d0s2q .token.number {
+  color: var(--Yellow);
+}
+
+.css-4d0s2q .token.keyword {
+  color: var(--Pink);
+}
+
+.css-4d0s2q .token.punctuation {
+  color: var(--Pink);
+}
+
+.css-4d0s2q .token.operator {
+  color: var(--Orange);
+}
+
+/* copy button */
+.css-tj37xy.e10mrw3y2 {
+  color: var(--Red);
+}
+
+/* Hide menu button */
+.css-obh9wf.e16nr0p32 {
+  visibility: hidden;
+}
+
+/* header */
+.css-1tceqde.e16nr0p34 {
+  padding-top: .5rem;
+  font-size: 14px;
+  color: var(--Orange);
+}
+
+/* Text area */
+/* .stTextArea {
+  padding-top: .6rem !important;
+} */
+
+/* Text area */
+div textarea {
+  color: var(--Foreground) !important;
+}
+
+/* Placeholder text */
+[class^="st-"]::placeholder {
+  color: var(--Bright-Green);
+  opacity: .4;
+}

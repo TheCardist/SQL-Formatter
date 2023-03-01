@@ -1,0 +1,5 @@
+pandas==1.4.3
+sql_formatter==0.6.2
+st_btn_select==0.1.2
+streamlit==1.14.0
+streamlit_option_menu==0.3.2
